@@ -34,22 +34,22 @@ public class CalendarQuickstart {
     /**
      * Application name.
      */
-    private static final String APPLICATION_NAME = "Google Calendar API Java Quickstart";
+    private static final String      APPLICATION_NAME      = "Google Calendar API Java Quickstart";
     /**
      * Global instance of the JSON factory.
      */
-    private static final JsonFactory JSON_FACTORY = GsonFactory.getDefaultInstance();
+    private static final JsonFactory JSON_FACTORY          = GsonFactory.getDefaultInstance();
     /**
      * Directory to store authorization tokens for this application.
      */
-    private static final String TOKENS_DIRECTORY_PATH = "tokens";
+    private static final String      TOKENS_DIRECTORY_PATH = "tokens";
 
     /**
      * Global instance of the scopes required by this quickstart.
      * If modifying these scopes, delete your previously saved tokens/ folder.
      */
-    private static final List<String> SCOPES =
-            Collections.singletonList(CalendarScopes.CALENDAR_READONLY);
+    private static final List<String> SCOPES = List.of(CalendarScopes.CALENDAR_READONLY, CalendarScopes.CALENDAR_EVENTS);
+
     private static final String CREDENTIALS_FILE_PATH = "/credentials.json";
 
     /**
@@ -76,7 +76,7 @@ public class CalendarQuickstart {
                 .setDataStoreFactory(new FileDataStoreFactory(new java.io.File(GoogleConstants.TOKENS_DIRECTORY_PATH)))
                 .setAccessType("offline")
                 .build();
-        LocalServerReceiver receiver = new LocalServerReceiver.Builder().setPort(8888).build();
+        LocalServerReceiver receiver = new LocalServerReceiver.Builder().setPort(8080).build();
         Credential credential = new AuthorizationCodeInstalledApp(flow, receiver).authorize("user");
         //returns an authorized Credential object.
         return credential;
@@ -86,31 +86,34 @@ public class CalendarQuickstart {
     public static void main(String... args) throws IOException, GeneralSecurityException {
         // Build a new authorized API client service.
         final NetHttpTransport HTTP_TRANSPORT = GoogleNetHttpTransport.newTrustedTransport();
-        Calendar service =
-                new Calendar.Builder(HTTP_TRANSPORT, JSON_FACTORY, getCredentials(HTTP_TRANSPORT))
-                        .setApplicationName(APPLICATION_NAME)
-                        .build();
-
-        // List the next 10 events from the primary calendar.
-        DateTime now = new DateTime(System.currentTimeMillis());
-        Events events = service.events().list("primary")
-                .setMaxResults(10)
-                .setTimeMin(now)
-                .setOrderBy("startTime")
-                .setSingleEvents(true)
-                .execute();
-        List<Event> items = events.getItems();
-        if (items.isEmpty()) {
-            System.out.println("No upcoming events found.");
-        } else {
-            System.out.println("Upcoming events");
-            for (Event event : items) {
-                DateTime start = event.getStart().getDateTime();
-                if (start == null) {
-                    start = event.getStart().getDate();
-                }
-                System.out.printf("%s (%s)\n", event.getSummary(), start);
-            }
-        }
+        getCredentials(HTTP_TRANSPORT);
+        System.out.println(getCredentials(HTTP_TRANSPORT).getAccessToken());
+        //        Calendar service =
+        //                new Calendar.Builder(HTTP_TRANSPORT, JSON_FACTORY, getCredentials(HTTP_TRANSPORT))
+        //                        .setApplicationName(APPLICATION_NAME)
+        //                        .build();
+        //
+        //        // List the next 10 events from the primary calendar.
+        //        DateTime now = new DateTime(System.currentTimeMillis());
+        //        Events events = service.events().list("primary")
+        //                .setMaxResults(10)
+        //                .setTimeMin(now)
+        //                .setOrderBy("startTime")
+        //                .setSingleEvents(true)
+        //                .execute();
+        //        List<Event> items = events.getItems();
+        //        if (items.isEmpty()) {
+        //            System.out.println("No upcoming events found.");
+        //        } else {
+        //            System.out.println("Upcoming events");
+        //            for (Event event : items) {
+        //                System.out.println(event);
+        //                DateTime start = event.getStart().getDateTime();
+        //                if (start == null) {
+        //                    start = event.getStart().getDate();
+        //                }
+        //                System.out.printf("%s (%s)\n", event.getSummary(), start);
+        //            }
+        //        }
     }
 }

@@ -12,11 +12,11 @@ public class GoogleConstants {
     /**
      * Global instance of the JSON factory.
      */
-    public static final     JsonFactory JSON_FACTORY          = GsonFactory.getDefaultInstance();
+    public static final JsonFactory JSON_FACTORY          = GsonFactory.getDefaultInstance();
     /**
      * Directory to store authorization tokens for this application.
      */
-    public static final     String      TOKENS_DIRECTORY_PATH = "tokens";
+    public static final String      TOKENS_DIRECTORY_PATH = "tokens";
 
     /**
      * Global instance of the scopes required by this quickstart.
@@ -25,4 +25,5 @@ public class GoogleConstants {
     public static final List<String> SCOPES                =
             Collections.singletonList(CalendarScopes.CALENDAR_READONLY);
     public static final String       CREDENTIALS_FILE_PATH = "/credentials.json";
+    public static final String       CALLBACK_URL          = "http://localhost:7001/auth/callback";
 }

@@ -34,9 +34,10 @@ dependencies {
 	implementation 'com.google.apis:google-api-services-calendar:v3-rev20220715-2.0.0'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
-	implementation 'org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.3.4.RELEASE'
-	implementation group: 'org.springframework.security', name: 'spring-security-oauth2-client'
-	implementation 'org.springframework.boot:spring-boot-starter-security'
+//	implementation 'org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.3.4.RELEASE'
+//	implementation group: 'org.springframework.security', name: 'spring-security-oauth2-client'
+//	implementation 'org.springframework.boot:spring-boot-starter-security'
+//	implementation 'org.springframework.security:spring-security-oauth2-jose'
 }
 
 tasks.named('test') {
