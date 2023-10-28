@@ -33,6 +33,14 @@ public class BaseResponse {
         return ResponseEntity.ok(responseDto);
     }
 
+    public ResponseEntity<ResponseDto> successResponse(HttpStatus status, Object data, String msg) {
+        ResponseDto responseDto = new ResponseDto();
+        responseDto.setStatus(true);
+        responseDto.setData(data);
+        responseDto.setMessage(msg);
+        return ResponseEntity.status(status).body(responseDto);
+    }
+
     public ResponseEntity<ResponseDto> successResponse(String msg) {
         ResponseDto responseDto = new ResponseDto();
         responseDto.setStatus(true);

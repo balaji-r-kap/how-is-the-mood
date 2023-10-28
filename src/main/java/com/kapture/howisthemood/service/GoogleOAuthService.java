@@ -12,6 +12,7 @@ import com.kapture.howisthemood.constants.GoogleConstants;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
@@ -96,7 +97,7 @@ public class GoogleOAuthService {
                     .build();
             var data = Map.of("returnUrl", returnUrl,
                     "authUrl", authorizationUrl);
-            return baseResponse.successResponse(data, "Open the authUrl to login!");
+            return baseResponse.successResponse(HttpStatus.UNAUTHORIZED, data, "Open authUrl to login!");
         } catch (Exception e) {
             e.printStackTrace();
             return baseResponse.errorResponse(e);
