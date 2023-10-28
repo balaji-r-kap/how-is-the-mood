@@ -12,6 +12,7 @@ import com.kapture.howisthemood.constants.GoogleConstants;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.Cookie;
@@ -20,6 +21,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Map;
 
 import static com.kapture.howisthemood.constants.GoogleConstants.CREDENTIALS_FILE_PATH;
 import static com.kapture.howisthemood.constants.GoogleConstants.JSON_FACTORY;
@@ -29,9 +31,11 @@ import static com.kapture.howisthemood.constants.GoogleConstants.SCOPES;
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class GoogleOAuthService {
 
-    private final HttpServletResponse         response;
-    private final HttpServletRequest          request;
-    private       GoogleAuthorizationCodeFlow flow;
+    private final HttpServletResponse response;
+    private final HttpServletRequest  request;
+    private final BaseResponse        baseResponse;
+
+    private GoogleAuthorizationCodeFlow flow;
 
     @Value("${google.apis.client.id}")
     private String clientId;
@@ -74,7 +78,7 @@ public class GoogleOAuthService {
         }
     }
 
-    public void initOAuth(HttpServletResponse response, String returnPage) {
+    public ResponseEntity<?> initOAuth(String returnUrl) {
         try {
             final NetHttpTransport HTTP_TRANSPORT = GoogleNetHttpTransport.newTrustedTransport();
             InputStream in = CalendarQuickstart.class.getResourceAsStream(CREDENTIALS_FILE_PATH);
@@ -90,10 +94,12 @@ public class GoogleOAuthService {
             String authorizationUrl = flow.newAuthorizationUrl()
                     .setRedirectUri(redirectUrl)
                     .build();
-            response.sendRedirect(authorizationUrl);
-            response.sendRedirect(returnPage);
+            var data = Map.of("returnUrl", returnUrl,
+                    "authUrl", authorizationUrl);
+            return baseResponse.successResponse(data, "Open the authUrl to login!");
         } catch (Exception e) {
             e.printStackTrace();
+            return baseResponse.errorResponse(e);
         }
     }
 
