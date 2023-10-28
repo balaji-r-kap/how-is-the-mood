@@ -1,9 +1,6 @@
 package com.kapture.howisthemood.controller;
 
-import com.google.api.client.auth.oauth2.Credential;
-import com.google.api.client.auth.oauth2.TokenResponse;
 import com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeFlow;
-import com.kapture.howisthemood.constants.GoogleConstants;
 import com.kapture.howisthemood.service.GoogleOAuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,7 +37,6 @@ public class GoogleOAuthController {
 
     @GetMapping("/user")
     public Principal getUser(Principal principal) {
-        System.out.println(principal);
         return principal;
     }
 
