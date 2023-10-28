@@ -21,7 +21,9 @@ public class SecurityConfig {
         http.csrf(AbstractHttpConfigurer::disable)
                 .cors(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(authorize -> {
-                    authorize.anyRequest().permitAll();
+                    authorize
+                            .antMatchers("/calendar/**").authenticated()
+                            .anyRequest().permitAll();
                 });
         http.addFilterBefore(authFilter, UsernamePasswordAuthenticationFilter.class);
         return http.build();

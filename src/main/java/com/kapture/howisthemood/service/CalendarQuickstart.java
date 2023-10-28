@@ -76,7 +76,7 @@ public class CalendarQuickstart {
                 .setDataStoreFactory(new FileDataStoreFactory(new java.io.File(GoogleConstants.TOKENS_DIRECTORY_PATH)))
                 .setAccessType("offline")
                 .build();
-        LocalServerReceiver receiver = new LocalServerReceiver.Builder().setPort(8080).build();
+        LocalServerReceiver receiver = new LocalServerReceiver.Builder().setPort(7001).build();
         Credential credential = new AuthorizationCodeInstalledApp(flow, receiver).authorize("user");
         //returns an authorized Credential object.
         return credential;
@@ -88,32 +88,32 @@ public class CalendarQuickstart {
         final NetHttpTransport HTTP_TRANSPORT = GoogleNetHttpTransport.newTrustedTransport();
         getCredentials(HTTP_TRANSPORT);
         System.out.println(getCredentials(HTTP_TRANSPORT).getAccessToken());
-        //        Calendar service =
-        //                new Calendar.Builder(HTTP_TRANSPORT, JSON_FACTORY, getCredentials(HTTP_TRANSPORT))
-        //                        .setApplicationName(APPLICATION_NAME)
-        //                        .build();
-        //
-        //        // List the next 10 events from the primary calendar.
-        //        DateTime now = new DateTime(System.currentTimeMillis());
-        //        Events events = service.events().list("primary")
-        //                .setMaxResults(10)
-        //                .setTimeMin(now)
-        //                .setOrderBy("startTime")
-        //                .setSingleEvents(true)
-        //                .execute();
-        //        List<Event> items = events.getItems();
-        //        if (items.isEmpty()) {
-        //            System.out.println("No upcoming events found.");
-        //        } else {
-        //            System.out.println("Upcoming events");
-        //            for (Event event : items) {
-        //                System.out.println(event);
-        //                DateTime start = event.getStart().getDateTime();
-        //                if (start == null) {
-        //                    start = event.getStart().getDate();
-        //                }
-        //                System.out.printf("%s (%s)\n", event.getSummary(), start);
-        //            }
-        //        }
+                Calendar service =
+                        new Calendar.Builder(HTTP_TRANSPORT, JSON_FACTORY, getCredentials(HTTP_TRANSPORT))
+                                .setApplicationName(APPLICATION_NAME)
+                                .build();
+
+                // List the next 10 events from the primary calendar.
+                DateTime now = new DateTime(System.currentTimeMillis());
+                Events events = service.events().list("primary")
+                        .setMaxResults(10)
+                        .setTimeMin(now)
+                        .setOrderBy("startTime")
+                        .setSingleEvents(true)
+                        .execute();
+                List<Event> items = events.getItems();
+                if (items.isEmpty()) {
+                    System.out.println("No upcoming events found.");
+                } else {
+                    System.out.println("Upcoming events");
+                    for (Event event : items) {
+                        System.out.println(event);
+                        DateTime start = event.getStart().getDateTime();
+                        if (start == null) {
+                            start = event.getStart().getDate();
+                        }
+                        System.out.printf("%s (%s)\n", event.getSummary(), start);
+                    }
+                }
     }
 }

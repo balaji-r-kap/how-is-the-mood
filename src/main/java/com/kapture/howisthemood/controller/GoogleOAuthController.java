@@ -1,6 +1,5 @@
 package com.kapture.howisthemood.controller;
 
-import com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeFlow;
 import com.kapture.howisthemood.service.GoogleOAuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.security.Principal;
 
 @RestController
@@ -18,21 +16,16 @@ import java.security.Principal;
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class GoogleOAuthController {
 
-    private final GoogleOAuthService          googleOAuthService;
-    private       GoogleAuthorizationCodeFlow flow;
+    private final GoogleOAuthService googleOAuthService;
 
     @GetMapping("/init")
-    public void init(HttpServletResponse response) throws IOException {
-        googleOAuthService.initOAuth(response);
+    public void init(HttpServletResponse response, @RequestParam("return") String returnPage) {
+        googleOAuthService.initOAuth(response, returnPage);
     }
 
     @GetMapping("/callback")
-    public void callback(@RequestParam(value = "code") String code) {
-        try {
-            googleOAuthService.handleCallback(code);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    public void callback(@RequestParam("code") String code) {
+        googleOAuthService.handleCallback(code);
     }
 
     @GetMapping("/user")

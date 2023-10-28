@@ -24,10 +24,16 @@ public class AuthFilter extends OncePerRequestFilter {
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-        String authToken = GoogleOAuthService.getAuthTokenFromCookies(request);
-        if (authToken == null || authToken.isEmpty()) {
-            googleOAuthService.initOAuth(response);
+        Credential credential = googleOAuthService.getCredentialFromCookies();
+        if (credential == null) {
+            if (!request.getServletPath().contains("/auth/")) {
+                response.sendRedirect("/auth/init" + "?return=" + request.getServletPath());
+                return;
+            }
+            filterChain.doFilter(request, response);
+            return;
         }
+        request.setAttribute("credential", credential);
         var authentication = new UsernamePasswordAuthenticationToken(
                 "username",
                 "password",
