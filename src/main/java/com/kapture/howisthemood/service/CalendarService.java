@@ -45,6 +45,7 @@ public class CalendarService {
     private final GoogleOAuthService      GoogleOAuthService;
     private final InternalEventRepository internalEventRepository;
     private final InternalEventService    internalEventService;
+    private final JobScheduleService      jobScheduleService;
 
     @Value("${callback.baseurl}")
     private String callbackBaseUrl;
@@ -100,15 +101,13 @@ public class CalendarService {
                     internalEventRepository.saveAndFlush(eventItem);
                 }
             });
-            scheduleJobs();
+            jobScheduleService.scheduleJobs();
         } catch (Exception e) {
             e.printStackTrace();
         }
 
     }
 
-    private void scheduleJobs() {
-    }
 
     public boolean createCalenderEventsWatchChannel() {
         try {

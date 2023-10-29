@@ -445,3 +445,17 @@ Caused by: java.lang.IllegalArgumentException: Unrecognized legacy `hibernate.hb
 2023-10-30 00:56:46,289 [http-nio-7001-exec-8] ERROR SqlExceptionHelper - Deadlock found when trying to get lock; try restarting transaction
 2023-10-30 00:56:46,289 [http-nio-7001-exec-17] ERROR SqlExceptionHelper - Deadlock found when trying to get lock; try restarting transaction
 2023-10-30 00:56:46,289 [http-nio-7001-exec-16] ERROR SqlExceptionHelper - Deadlock found when trying to get lock; try restarting transaction
+2023-10-30 01:11:07,946 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 7896 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 01:11:07,946 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 01:11:07,946 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 01:11:08,247 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 01:11:08,705 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 0.787 seconds (JVM running for 898.004)
+2023-10-30 01:12:02,365 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 7896 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 01:12:02,366 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 01:12:02,366 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 01:12:02,940 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 01:12:03,455 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 1.169 seconds (JVM running for 952.754)
+2023-10-30 01:29:17,512 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 13880 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 01:29:17,514 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 01:29:17,516 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 01:29:19,123 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
