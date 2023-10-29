@@ -22,7 +22,6 @@ public class SecurityConfig {
                 .cors(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(authorize -> {
                     authorize
-                            .antMatchers("/calendar/**").authenticated()
                             .anyRequest().permitAll();
                 });
         http.addFilterBefore(authFilter, UsernamePasswordAuthenticationFilter.class);

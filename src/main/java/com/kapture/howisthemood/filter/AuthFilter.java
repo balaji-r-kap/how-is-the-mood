@@ -24,9 +24,11 @@ public class AuthFilter extends OncePerRequestFilter {
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-        Credential credential = googleOAuthService.getCredentialFromCookies();
+        Credential credential = googleOAuthService.getCredentialFromCookies(request);
         if (credential == null) {
-            if (!request.getServletPath().contains("/auth/")) {
+            System.out.println("======= CREDENTIAL IS NULL =======");
+            System.out.println(request.getServletPath());
+            if (!request.getServletPath().contains("/auth/") && !request.getServletPath().contains("callback")) {
                 response.sendRedirect("/auth/init" + "?return=" + request.getServletPath());
                 return;
             }

@@ -33,8 +33,8 @@ import static com.kapture.howisthemood.constants.GoogleConstants.SCOPES;
 public class GoogleOAuthService {
 
     private final HttpServletResponse response;
-    private final HttpServletRequest  request;
     private final BaseResponse        baseResponse;
+    private final CacheService        cacheService;
 
     private GoogleAuthorizationCodeFlow flow;
 
@@ -44,30 +44,41 @@ public class GoogleOAuthService {
     @Value("${google.apis.client.secret}")
     private String clientSecret;
 
-    public Credential getCredentialFromCookies() {
-        try {
-            Cookie[] cookies = request.getCookies();
-            if (cookies != null) {
-                for (Cookie cookie : cookies) {
-                    if (cookie.getName().equals("access_token")) {
-                        String accessToken = cookie.getValue();
-                        if (accessToken != null) {
-                            Credential credential = new Credential.Builder(BearerToken.authorizationHeaderAccessMethod())
-                                    .setClientAuthentication(new ClientParametersAuthentication(clientId, clientSecret))
-                                    .build();
-                            credential.setAccessToken(accessToken);
-                            return credential;
-                        }
-                    }
-                }
+    public Credential getCredentialFromCookies(HttpServletRequest request) {
+        if (true) {
+            String accessToken = cacheService.getAccessToken("balaji.r@kapturecrm.com");
+            if (accessToken != null) {
+                Credential credentials = new Credential.Builder(BearerToken.authorizationHeaderAccessMethod())
+                        .setClientAuthentication(new ClientParametersAuthentication(clientId, clientSecret))
+                        .build();
+                credentials.setAccessToken(accessToken);
+                return credentials;
             }
-        } catch (Exception e) {
-            e.printStackTrace();
         }
+//        try {
+//            Cookie[] cookies = request.getCookies();
+//            if (cookies != null) {
+//                for (Cookie cookie : cookies) {
+//                    if (cookie.getName().equals("access_token")) {
+//                        String accessToken = cookie.getValue();
+//                        if (accessToken != null) {
+//                            Credential credentials = new Credential.Builder(BearerToken.authorizationHeaderAccessMethod())
+//                                    .setClientAuthentication(new ClientParametersAuthentication(clientId, clientSecret))
+//                                    .build();
+//                            credentials.setAccessToken(accessToken);
+//                            return credentials;
+//                        }
+//                    }
+//                }
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
         return null;
     }
 
-    public static void setCredentialInCookies(HttpServletResponse response, Credential credential) {
+    public void setCredentialInCookies(HttpServletResponse response, Credential credential) {
+        cacheService.putAccessToken("balaji.r@kapturecrm.com", credential.getAccessToken());
         try {
             Cookie cookie = new Cookie("access_token", credential.getAccessToken());
             cookie.setPath("/");
@@ -106,9 +117,13 @@ public class GoogleOAuthService {
 
     public void handleCallback(String code) {
         try {
-            TokenResponse tokenResp = flow.newTokenRequest(code).setRedirectUri(GoogleConstants.CALLBACK_URL).execute();
+            TokenResponse tokenResp = flow.newTokenRequest(code)
+                    .setRedirectUri(GoogleConstants.CALLBACK_URL)
+                    .execute();
+            tokenResp.setExpiresInSeconds(60L);
             Credential credential = flow.createAndStoreCredential(tokenResp, "userID");
-            GoogleOAuthService.setCredentialInCookies(response, credential);
+
+            setCredentialInCookies(response, credential);
         } catch (Exception e) {
             e.printStackTrace();
         }

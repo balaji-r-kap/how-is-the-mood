@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property name="APP_LOG" value="logs/howsthemood.log"/>
+
+    <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${APP_LOG}</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/archived/howisthemoodlogs.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize> <!-- 2 days to keep -->
+            <maxHistory>2</maxHistory> <!-- total size of all archive files, if total size > 500MB, it will delete old archived file -->
+            <totalSizeCap>500MB</totalSizeCap>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d [%t] %-5p %logger{0} - %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.kapture" level="DEBUG" additivity="false">
+        <appender-ref ref="FILE-ROLLING"/>
+    </logger>
+
+    <root level="ERROR">
+        <appender-ref ref="FILE-ROLLING"/>
+    </root>
+
+</configuration>

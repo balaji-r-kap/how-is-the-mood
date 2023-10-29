@@ -1,0 +1,517 @@
+2023-10-29 22:27:22,086 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 6620 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 22:27:22,089 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 22:27:22,090 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 22:27:23,346 [restartedMain] ERROR TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'authFilter' defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\filter\AuthFilter.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'googleOAuthService' defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\GoogleOAuthService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'googleOAuthService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2023-10-29 22:27:23,438 [restartedMain] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   authFilter defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\filter\AuthFilter.class]
+┌─────┐
+|  googleOAuthService defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\GoogleOAuthService.class]
+└─────┘
+
+
+Action:
+
+Despite circular references being allowed, the dependency cycle between beans could not be broken. Update your application to remove the dependency cycle.
+
+2023-10-29 22:28:07,213 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 25352 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 22:28:07,215 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 22:28:07,215 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 22:28:08,357 [restartedMain] ERROR TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'authFilter' defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\filter\AuthFilter.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'googleOAuthService' defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\GoogleOAuthService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'googleOAuthService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2023-10-29 22:28:08,437 [restartedMain] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   authFilter defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\filter\AuthFilter.class]
+┌─────┐
+|  googleOAuthService defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\GoogleOAuthService.class]
+└─────┘
+
+
+Action:
+
+Despite circular references being allowed, the dependency cycle between beans could not be broken. Update your application to remove the dependency cycle.
+
+2023-10-29 22:32:28,088 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 14312 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 22:32:28,090 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 22:32:28,091 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 22:32:29,254 [restartedMain] ERROR TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'authFilter' defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\filter\AuthFilter.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheService' defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\CacheService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'googleOAuthService' defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\GoogleOAuthService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'googleOAuthService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2023-10-29 22:32:29,334 [restartedMain] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   authFilter defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\filter\AuthFilter.class]
+      ↓
+   cacheService defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\CacheService.class]
+┌─────┐
+|  googleOAuthService defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\GoogleOAuthService.class]
+└─────┘
+
+
+Action:
+
+Despite circular references being allowed, the dependency cycle between beans could not be broken. Update your application to remove the dependency cycle.
+
+2023-10-29 22:33:14,392 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 8652 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 22:33:14,394 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 22:33:14,395 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 22:33:15,480 [restartedMain] ERROR TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'authFilter' defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\filter\AuthFilter.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheService' defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\CacheService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'OAuthService' defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\OAuthService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'OAuthService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2023-10-29 22:33:15,562 [restartedMain] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   authFilter defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\filter\AuthFilter.class]
+      ↓
+   cacheService defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\CacheService.class]
+┌─────┐
+|  OAuthService defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\OAuthService.class]
+└─────┘
+
+
+Action:
+
+Despite circular references being allowed, the dependency cycle between beans could not be broken. Update your application to remove the dependency cycle.
+
+2023-10-29 22:33:36,952 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 22620 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 22:33:36,955 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 22:33:36,955 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 22:33:38,085 [restartedMain] ERROR TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'authFilter' defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\filter\AuthFilter.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheService' defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\CacheService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'OAuthService' defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\OAuthService.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'OAuthService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2023-10-29 22:33:38,170 [restartedMain] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   authFilter defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\filter\AuthFilter.class]
+      ↓
+   cacheService defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\CacheService.class]
+┌─────┐
+|  OAuthService defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\OAuthService.class]
+└─────┘
+
+
+Action:
+
+Despite circular references being allowed, the dependency cycle between beans could not be broken. Update your application to remove the dependency cycle.
+
+2023-10-29 22:37:12,076 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 15804 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 22:37:12,083 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 22:37:12,084 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 22:37:13,062 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 22:37:14,333 [restartedMain] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   calendarController defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\controller\CalendarController.class]
+      ↓
+   calendarService defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\CalendarService.class]
+┌─────┐
+|  OAuthService defined in file [C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main\com\kapture\howisthemood\service\OAuthService.class]
+└─────┘
+
+
+Action:
+
+Despite circular references being allowed, the dependency cycle between beans could not be broken. Update your application to remove the dependency cycle.
+
+2023-10-29 22:37:50,770 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 2664 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 22:37:50,771 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 22:37:50,772 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 22:37:51,718 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 22:37:53,106 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 2.572 seconds (JVM running for 3.221)
+2023-10-29 22:38:31,416 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 27808 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 22:38:31,418 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 22:38:31,418 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 22:38:32,376 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 22:38:33,922 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 2.749 seconds (JVM running for 3.431)
+2023-10-29 22:40:14,852 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 26360 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 22:40:14,854 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 22:40:14,854 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 22:40:15,780 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 22:40:17,153 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 2.544 seconds (JVM running for 3.186)
+2023-10-29 22:46:21,818 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 13872 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 22:46:21,819 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 22:46:21,820 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 22:46:22,828 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 22:46:24,248 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 2.677 seconds (JVM running for 3.347)
+2023-10-29 22:55:29,102 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 26816 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 22:55:29,104 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 22:55:29,104 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 22:55:30,055 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 22:55:31,509 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 2.658 seconds (JVM running for 3.315)
+2023-10-29 23:23:51,483 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 20640 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 23:23:51,485 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 23:23:51,485 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 23:23:52,488 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 23:23:54,167 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 2.945 seconds (JVM running for 3.747)
+2023-10-29 23:24:46,948 [http-nio-7001-exec-1] ERROR [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at com.kapture.howisthemood.service.CacheService.getAccessToken(CacheService.java:19)
+	at com.kapture.howisthemood.service.GoogleOAuthService.getCredentialFromCookies(GoogleOAuthService.java:49)
+	at com.kapture.howisthemood.filter.AuthFilter.doFilterInternal(AuthFilter.java:27)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-10-29 23:25:26,392 [http-nio-7001-exec-2] ERROR [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at com.kapture.howisthemood.service.CacheService.getAccessToken(CacheService.java:19)
+	at com.kapture.howisthemood.service.GoogleOAuthService.getCredentialFromCookies(GoogleOAuthService.java:49)
+	at com.kapture.howisthemood.filter.AuthFilter.doFilterInternal(AuthFilter.java:27)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-10-29 23:25:39,968 [http-nio-7001-exec-4] ERROR [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at com.kapture.howisthemood.service.CacheService.getAccessToken(CacheService.java:19)
+	at com.kapture.howisthemood.service.GoogleOAuthService.getCredentialFromCookies(GoogleOAuthService.java:49)
+	at com.kapture.howisthemood.filter.AuthFilter.doFilterInternal(AuthFilter.java:27)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-10-29 23:26:36,003 [http-nio-7001-exec-5] ERROR [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at com.kapture.howisthemood.service.CacheService.getAccessToken(CacheService.java:19)
+	at com.kapture.howisthemood.service.GoogleOAuthService.getCredentialFromCookies(GoogleOAuthService.java:49)
+	at com.kapture.howisthemood.filter.AuthFilter.doFilterInternal(AuthFilter.java:27)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-10-29 23:26:36,004 [http-nio-7001-exec-6] ERROR [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at com.kapture.howisthemood.service.CacheService.getAccessToken(CacheService.java:19)
+	at com.kapture.howisthemood.service.GoogleOAuthService.getCredentialFromCookies(GoogleOAuthService.java:49)
+	at com.kapture.howisthemood.filter.AuthFilter.doFilterInternal(AuthFilter.java:27)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-10-29 23:26:39,037 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 17156 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 23:26:39,039 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 23:26:39,039 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 23:26:40,111 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 23:26:41,826 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.046 seconds (JVM running for 3.716)
+2023-10-29 23:28:01,094 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 28940 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 23:28:01,096 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 23:28:01,096 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 23:28:02,127 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 23:28:03,775 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 2.93 seconds (JVM running for 3.608)
+2023-10-29 23:30:43,564 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 16552 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 23:30:43,565 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 23:30:43,566 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 23:30:44,610 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 23:30:46,297 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 2.985 seconds (JVM running for 3.654)
+2023-10-29 23:31:33,450 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 15464 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 23:31:33,452 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 23:31:33,452 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 23:31:34,593 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 23:31:36,234 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.029 seconds (JVM running for 3.695)
+2023-10-29 23:33:13,930 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 17476 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 23:33:13,932 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 23:33:13,932 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 23:33:15,117 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 23:33:16,718 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.045 seconds (JVM running for 3.747)
+2023-10-29 23:49:33,347 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 100 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 23:49:33,349 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 23:49:33,349 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 23:49:34,505 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 23:49:36,073 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 2.973 seconds (JVM running for 3.63)
+2023-10-29 23:51:46,520 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 18436 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 23:51:46,522 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 23:51:46,522 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 23:51:47,706 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 23:51:49,196 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 2.923 seconds (JVM running for 3.585)
+2023-10-29 23:54:10,623 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 13096 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 23:54:10,625 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 23:54:10,625 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 23:54:11,793 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 23:54:13,245 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 2.868 seconds (JVM running for 3.522)
+2023-10-29 23:57:16,560 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 12124 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 23:57:16,562 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 23:57:16,563 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 23:57:17,938 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 23:57:19,702 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.469 seconds (JVM running for 4.341)
+2023-10-29 23:59:03,277 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 19244 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-29 23:59:03,280 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-29 23:59:03,280 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-29 23:59:04,735 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-29 23:59:06,559 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.597 seconds (JVM running for 4.416)

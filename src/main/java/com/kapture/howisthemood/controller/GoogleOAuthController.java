@@ -16,16 +16,16 @@ import java.security.Principal;
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class GoogleOAuthController {
 
-    private final GoogleOAuthService googleOAuthService;
+    private final GoogleOAuthService GoogleOAuthService;
 
     @GetMapping("/init")
     public ResponseEntity<?> init(@RequestParam(name = "return", defaultValue = "/") String returnUrl) {
-        return googleOAuthService.initOAuth(returnUrl);
+        return GoogleOAuthService.initOAuth(returnUrl);
     }
 
     @GetMapping("/callback")
     public void callback(@RequestParam("code") String code) {
-        googleOAuthService.handleCallback(code);
+        GoogleOAuthService.handleCallback(code);
     }
 
     @GetMapping("/user")

@@ -1,0 +1,447 @@
+2023-10-30 00:00:11,695 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 19120 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:00:11,702 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:00:11,702 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:00:13,494 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:00:16,371 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 5.06 seconds (JVM running for 5.95)
+2023-10-30 00:00:22,308 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 19120 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:00:22,308 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:00:22,308 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:00:22,729 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:00:23,021 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 0.756 seconds (JVM running for 12.6)
+2023-10-30 00:00:24,869 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 19120 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:00:24,870 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:00:24,870 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:00:25,237 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:00:25,555 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 0.731 seconds (JVM running for 15.134)
+2023-10-30 00:02:19,311 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 8156 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:02:19,314 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:02:19,314 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:02:20,824 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:02:22,804 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.867 seconds (JVM running for 4.955)
+2023-10-30 00:08:08,302 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 22688 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:08:08,305 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:08:08,306 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:08:09,714 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:08:12,043 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 4.084 seconds (JVM running for 4.966)
+2023-10-30 00:08:20,940 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 22688 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:08:20,940 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:08:20,940 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:08:21,307 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:08:21,697 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 0.797 seconds (JVM running for 14.62)
+2023-10-30 00:14:01,720 [http-nio-7001-exec-9] ERROR SqlExceptionHelper - HikariPool-2 - Interrupted during connection acquisition
+2023-10-30 00:14:09,199 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 28196 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:14:09,202 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:14:09,203 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:14:10,572 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:14:12,473 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.638 seconds (JVM running for 4.543)
+2023-10-30 00:14:26,192 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 9408 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:14:26,195 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:14:26,195 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:14:27,626 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:14:29,422 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.607 seconds (JVM running for 4.619)
+2023-10-30 00:16:02,308 [http-nio-7001-exec-9] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:02,316 [http-nio-7001-exec-5] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:02,318 [http-nio-7001-exec-8] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:02,319 [http-nio-7001-exec-1] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:02,321 [http-nio-7001-exec-11] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:02,322 [http-nio-7001-exec-4] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:02,324 [http-nio-7001-exec-2] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:02,329 [http-nio-7001-exec-3] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:02,330 [http-nio-7001-exec-7] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:02,347 [http-nio-7001-exec-6] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:04,480 [http-nio-7001-exec-28] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:04,482 [http-nio-7001-exec-31] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:04,489 [http-nio-7001-exec-13] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:04,521 [http-nio-7001-exec-10] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:05,057 [http-nio-7001-exec-22] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:05,964 [http-nio-7001-exec-20] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:05,969 [http-nio-7001-exec-44] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:07,587 [http-nio-7001-exec-14] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:07,593 [http-nio-7001-exec-21] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:14,358 [http-nio-7001-exec-17] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:14,376 [http-nio-7001-exec-33] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:14,378 [http-nio-7001-exec-12] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:14,413 [http-nio-7001-exec-40] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:14,471 [http-nio-7001-exec-42] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:14,473 [http-nio-7001-exec-41] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:14,495 [http-nio-7001-exec-18] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:14,501 [http-nio-7001-exec-47] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:14,504 [http-nio-7001-exec-34] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:14,509 [http-nio-7001-exec-45] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:17,113 [http-nio-7001-exec-30] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:17,123 [http-nio-7001-exec-35] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:17,131 [http-nio-7001-exec-37] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:17,136 [http-nio-7001-exec-29] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:17,148 [http-nio-7001-exec-46] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:17,151 [http-nio-7001-exec-39] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:17,171 [http-nio-7001-exec-16] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:17,172 [http-nio-7001-exec-43] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:33,153 [http-nio-7001-exec-27] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:48,517 [http-nio-7001-exec-15] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 31404ms.
+2023-10-30 00:16:48,517 [http-nio-7001-exec-26] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 31398ms.
+2023-10-30 00:16:48,517 [http-nio-7001-exec-36] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 31404ms.
+2023-10-30 00:16:48,520 [http-nio-7001-exec-38] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 31405ms.
+2023-10-30 00:16:48,521 [http-nio-7001-exec-19] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:48,530 [http-nio-7001-exec-25] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:48,532 [http-nio-7001-exec-24] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:48,537 [http-nio-7001-exec-32] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:16:48,591 [http-nio-7001-exec-23] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:07,465 [http-nio-7001-exec-4] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:19,390 [http-nio-7001-exec-13] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:19,395 [http-nio-7001-exec-17] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:20,857 [http-nio-7001-exec-41] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:25,818 [http-nio-7001-exec-42] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:25,822 [http-nio-7001-exec-33] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:25,824 [http-nio-7001-exec-44] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:25,828 [http-nio-7001-exec-20] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:25,843 [http-nio-7001-exec-21] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:25,866 [http-nio-7001-exec-12] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:25,875 [http-nio-7001-exec-10] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:25,883 [http-nio-7001-exec-18] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:25,887 [http-nio-7001-exec-22] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:17:32,272 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 9408 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:17:32,272 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:17:32,272 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:17:32,666 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:17:32,932 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 0.721 seconds (JVM running for 188.13)
+2023-10-30 00:17:46,433 [http-nio-7001-exec-2] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:18:28,938 [http-nio-7001-exec-1] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:18:41,956 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 9408 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:18:41,956 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:18:41,957 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:18:42,325 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:18:42,595 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 0.681 seconds (JVM running for 257.793)
+2023-10-30 00:18:44,361 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 9408 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:18:44,361 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:18:44,361 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:18:44,670 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:18:44,955 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 0.619 seconds (JVM running for 260.152)
+2023-10-30 00:18:52,626 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 23792 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:18:52,628 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:18:52,628 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:18:54,015 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:18:55,797 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.509 seconds (JVM running for 4.44)
+2023-10-30 00:19:39,926 [http-nio-7001-exec-1] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:21:15,043 [http-nio-7001-exec-5] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:21:44,856 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 22692 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:21:44,859 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:21:44,860 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:21:46,297 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:21:48,301 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.76 seconds (JVM running for 4.606)
+2023-10-30 00:22:08,375 [http-nio-7001-exec-3] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:24:32,622 [http-nio-7001-exec-1] ERROR SqlExceptionHelper - Data truncation: Data too long for column 'description' at row 1
+2023-10-30 00:24:36,354 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 22472 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:24:36,358 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:24:36,358 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:24:37,785 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:24:39,786 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.768 seconds (JVM running for 4.645)
+2023-10-30 00:24:56,746 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 22472 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:24:56,746 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:24:56,746 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:24:57,119 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:24:57,555 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 0.851 seconds (JVM running for 22.415)
+2023-10-30 00:25:53,565 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 22472 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:25:53,565 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:25:53,565 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:25:53,959 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:25:54,334 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 0.81 seconds (JVM running for 79.194)
+2023-10-30 00:26:10,670 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 22472 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:26:10,671 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:26:10,671 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:26:11,123 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:26:11,485 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 0.857 seconds (JVM running for 96.345)
+2023-10-30 00:27:14,554 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 964 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:27:14,556 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:27:14,556 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:27:16,049 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:27:17,958 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.708 seconds (JVM running for 4.51)
+2023-10-30 00:28:15,558 [http-nio-7001-exec-18] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:28:15,558 [http-nio-7001-exec-11] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:28:15,558 [http-nio-7001-exec-7] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:28:15,558 [http-nio-7001-exec-6] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:28:15,558 [http-nio-7001-exec-19] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:28:15,558 [http-nio-7001-exec-1] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:28:15,558 [http-nio-7001-exec-3] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:28:15,558 [http-nio-7001-exec-14] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:28:15,558 [http-nio-7001-exec-13] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:29:54,742 [http-nio-7001-exec-2] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 99368ms.
+2023-10-30 00:29:54,742 [http-nio-7001-exec-10] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 99388ms.
+2023-10-30 00:29:54,743 [http-nio-7001-exec-9] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 99370ms.
+2023-10-30 00:29:54,743 [http-nio-7001-exec-8] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 99374ms.
+2023-10-30 00:29:54,743 [http-nio-7001-exec-4] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 99379ms.
+2023-10-30 00:29:54,743 [http-nio-7001-exec-5] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 99379ms.
+2023-10-30 00:29:54,746 [http-nio-7001-exec-16] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 99377ms.
+2023-10-30 00:29:54,746 [http-nio-7001-exec-15] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 99374ms.
+2023-10-30 00:29:54,747 [http-nio-7001-exec-17] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 99384ms.
+2023-10-30 00:30:24,114 [http-nio-7001-exec-37] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240327T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:24,114 [http-nio-7001-exec-35] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240327T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:24,114 [http-nio-7001-exec-49] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240327T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:24,114 [http-nio-7001-exec-54] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240327T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:24,115 [http-nio-7001-exec-56] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240327T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:24,115 [http-nio-7001-exec-27] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240327T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:24,115 [http-nio-7001-exec-33] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240327T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:24,117 [http-nio-7001-exec-30] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240327T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:24,117 [http-nio-7001-exec-52] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240327T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:41,594 [http-nio-7001-exec-21] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30739ms.
+2023-10-30 00:30:41,595 [http-nio-7001-exec-29] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30749ms.
+2023-10-30 00:30:41,600 [http-nio-7001-exec-34] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30739ms.
+2023-10-30 00:30:41,600 [http-nio-7001-exec-24] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30739ms.
+2023-10-30 00:30:43,949 [http-nio-7001-exec-53] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32299ms.
+2023-10-30 00:30:43,947 [http-nio-7001-exec-40] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32298ms.
+2023-10-30 00:30:43,948 [http-nio-7001-exec-51] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32300ms.
+2023-10-30 00:30:43,948 [http-nio-7001-exec-55] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32308ms.
+2023-10-30 00:30:43,947 [http-nio-7001-exec-57] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32299ms.
+2023-10-30 00:30:43,945 [http-nio-7001-exec-41] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32290ms.
+2023-10-30 00:30:41,600 [http-nio-7001-exec-23] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30739ms.
+2023-10-30 00:30:43,955 [http-nio-7001-exec-25] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32297ms.
+2023-10-30 00:30:45,392 [http-nio-7001-exec-43] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240424T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:45,392 [http-nio-7001-exec-48] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240424T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:45,402 [http-nio-7001-exec-22] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240424T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:45,402 [http-nio-7001-exec-47] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240424T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:45,578 [http-nio-7001-exec-45] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240424T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:45,739 [http-nio-7001-exec-12] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240424T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:30:47,349 [http-nio-7001-exec-28] ERROR SqlExceptionHelper - Duplicate entry '3pf2hvl0vslp5to6a7g31hg5m9_20240828T113000Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:31:22,603 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 14740 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:31:22,606 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:31:22,607 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:31:24,058 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:31:25,944 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.841 seconds (JVM running for 4.764)
+2023-10-30 00:33:11,711 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 27240 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:33:11,714 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:33:11,715 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:33:13,126 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:33:14,946 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.574 seconds (JVM running for 4.394)
+2023-10-30 00:33:27,345 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 20108 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:33:27,348 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:33:27,349 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:33:28,738 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:33:30,582 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.596 seconds (JVM running for 4.426)
+2023-10-30 00:34:01,526 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 3592 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:34:01,534 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:34:01,534 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:34:02,880 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:34:05,207 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 4.036 seconds (JVM running for 4.975)
+2023-10-30 00:35:53,720 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 13336 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:35:53,723 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:35:53,723 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:35:55,158 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:35:57,425 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 4.048 seconds (JVM running for 4.922)
+2023-10-30 00:38:23,824 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 17796 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:38:23,827 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:38:23,827 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:38:25,225 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:38:27,110 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.622 seconds (JVM running for 4.456)
+2023-10-30 00:40:33,554 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 27696 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:40:33,558 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:40:33,559 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:40:35,125 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:40:36,976 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.801 seconds (JVM running for 4.63)
+2023-10-30 00:42:42,081 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 11052 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:42:42,084 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:42:42,084 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:42:43,515 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:42:45,325 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.566 seconds (JVM running for 4.454)
+2023-10-30 00:44:00,709 [http-nio-7001-exec-5] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30541ms.
+2023-10-30 00:44:00,709 [http-nio-7001-exec-13] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30541ms.
+2023-10-30 00:44:00,720 [http-nio-7001-exec-4] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30539ms.
+2023-10-30 00:44:02,567 [http-nio-7001-exec-18] ERROR SqlExceptionHelper - Duplicate entry '7hfactm8eqgsppqje2d8r3hgk2_20231103T131500Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:44:02,573 [http-nio-7001-exec-3] ERROR SqlExceptionHelper - Duplicate entry '7hfactm8eqgsppqje2d8r3hgk2_20231103T131500Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:44:02,587 [http-nio-7001-exec-12] ERROR SqlExceptionHelper - Duplicate entry '7hfactm8eqgsppqje2d8r3hgk2_20231103T131500Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:44:02,587 [http-nio-7001-exec-19] ERROR SqlExceptionHelper - Duplicate entry '7hfactm8eqgsppqje2d8r3hgk2_20231103T131500Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:44:02,589 [http-nio-7001-exec-11] ERROR SqlExceptionHelper - Duplicate entry '7hfactm8eqgsppqje2d8r3hgk2_20231103T131500Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:44:02,591 [http-nio-7001-exec-14] ERROR SqlExceptionHelper - Duplicate entry '7hfactm8eqgsppqje2d8r3hgk2_20231103T131500Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:44:02,592 [http-nio-7001-exec-16] ERROR SqlExceptionHelper - Duplicate entry '7hfactm8eqgsppqje2d8r3hgk2_20231103T131500Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:44:02,592 [http-nio-7001-exec-7] ERROR SqlExceptionHelper - Duplicate entry '7hfactm8eqgsppqje2d8r3hgk2_20231103T131500Z' for key 'internal_event.PRIMARY'
+2023-10-30 00:44:07,634 [http-nio-7001-exec-10] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 34775ms.
+2023-10-30 00:44:07,634 [http-nio-7001-exec-1] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 33916ms.
+2023-10-30 00:44:07,636 [http-nio-7001-exec-2] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 34775ms.
+2023-10-30 00:44:07,636 [http-nio-7001-exec-6] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 34334ms.
+2023-10-30 00:44:07,638 [http-nio-7001-exec-9] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 33564ms.
+2023-10-30 00:44:07,638 [http-nio-7001-exec-8] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 34778ms.
+2023-10-30 00:44:13,405 [http-nio-7001-exec-31] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 33361ms.
+2023-10-30 00:44:13,405 [http-nio-7001-exec-35] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 33348ms.
+2023-10-30 00:44:13,405 [http-nio-7001-exec-36] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 33364ms.
+2023-10-30 00:44:13,406 [http-nio-7001-exec-21] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 33354ms.
+2023-10-30 00:44:13,405 [http-nio-7001-exec-32] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 33373ms.
+2023-10-30 00:44:13,405 [http-nio-7001-exec-23] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 33359ms.
+2023-10-30 00:44:13,405 [http-nio-7001-exec-24] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 33373ms.
+2023-10-30 00:44:13,407 [http-nio-7001-exec-22] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 33372ms.
+2023-10-30 00:44:19,617 [quartzScheduler_QuartzSchedulerThread] ERROR ErrorLogger - An error occurred while scanning for the next triggers to fire.
+org.quartz.JobPersistenceException: Failed to obtain DB connection from data source 'springNonTxDataSource.quartzScheduler': java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30209ms.
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:168)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3861)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTriggers(JobStoreSupport.java:2802)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:287)
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30209ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.scheduling.quartz.LocalDataSourceJobStore$2.getConnection(LocalDataSourceJobStore.java:140)
+	at org.quartz.utils.DBConnectionManager.getConnection(DBConnectionManager.java:108)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:165)
+	... 3 common frames omitted
+2023-10-30 00:44:19,617 [QuartzScheduler_quartzScheduler-NON_CLUSTERED_MisfireHandler] ERROR LocalDataSourceJobStore - MisfireHandler: Error handling misfires: Failed to obtain DB connection from data source 'springNonTxDataSource.quartzScheduler': java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30205ms.
+org.quartz.JobPersistenceException: Failed to obtain DB connection from data source 'springNonTxDataSource.quartzScheduler': java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30205ms.
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:168)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doRecoverMisfires(JobStoreSupport.java:3246)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$MisfireHandler.manage(JobStoreSupport.java:4012)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$MisfireHandler.run(JobStoreSupport.java:4033)
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30205ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.scheduling.quartz.LocalDataSourceJobStore$2.getConnection(LocalDataSourceJobStore.java:140)
+	at org.quartz.utils.DBConnectionManager.getConnection(DBConnectionManager.java:108)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:165)
+	... 3 common frames omitted
+2023-10-30 00:44:26,079 [http-nio-7001-exec-25] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30098ms.
+2023-10-30 00:44:26,081 [http-nio-7001-exec-26] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30102ms.
+2023-10-30 00:44:26,080 [http-nio-7001-exec-20] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30106ms.
+2023-10-30 00:44:26,097 [http-nio-7001-exec-30] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30092ms.
+2023-10-30 00:44:26,097 [http-nio-7001-exec-34] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30094ms.
+2023-10-30 00:44:26,097 [http-nio-7001-exec-33] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30115ms.
+2023-10-30 00:44:26,097 [http-nio-7001-exec-29] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30090ms.
+2023-10-30 00:44:26,097 [http-nio-7001-exec-27] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30134ms.
+2023-10-30 00:44:26,097 [http-nio-7001-exec-38] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30146ms.
+2023-10-30 00:44:26,097 [http-nio-7001-exec-28] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30106ms.
+2023-10-30 00:44:26,097 [http-nio-7001-exec-37] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30146ms.
+2023-10-30 00:44:38,033 [http-nio-7001-exec-54] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 37310ms.
+2023-10-30 00:44:38,040 [http-nio-7001-exec-39] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 35449ms.
+2023-10-30 00:44:38,040 [http-nio-7001-exec-41] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 37312ms.
+2023-10-30 00:44:38,040 [http-nio-7001-exec-40] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 35447ms.
+2023-10-30 00:44:38,041 [http-nio-7001-exec-45] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 35455ms.
+2023-10-30 00:44:38,041 [http-nio-7001-exec-47] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 35447ms.
+2023-10-30 00:44:38,041 [http-nio-7001-exec-52] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 35449ms.
+2023-10-30 00:44:38,041 [http-nio-7001-exec-48] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 35392ms.
+2023-10-30 00:44:38,040 [http-nio-7001-exec-44] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 37308ms.
+2023-10-30 00:44:38,043 [http-nio-7001-exec-50] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 35428ms.
+2023-10-30 00:45:22,037 [http-nio-7001-exec-71] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30253ms.
+2023-10-30 00:46:11,708 [quartzScheduler_QuartzSchedulerThread] ERROR ErrorLogger - An error occurred while scanning for the next triggers to fire.
+org.quartz.JobPersistenceException: Failed to obtain DB connection from data source 'springNonTxDataSource.quartzScheduler': java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 65306ms.
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:168)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3861)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTriggers(JobStoreSupport.java:2802)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:287)
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 65306ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.scheduling.quartz.LocalDataSourceJobStore$2.getConnection(LocalDataSourceJobStore.java:140)
+	at org.quartz.utils.DBConnectionManager.getConnection(DBConnectionManager.java:108)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:165)
+	... 3 common frames omitted
+2023-10-30 00:46:27,094 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 29460 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:46:27,098 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:46:27,098 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:46:28,579 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:46:30,556 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.832 seconds (JVM running for 4.739)
+2023-10-30 00:46:43,529 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 29460 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:46:43,529 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:46:43,529 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:46:43,948 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:46:44,273 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 0.793 seconds (JVM running for 18.454)
+2023-10-30 00:51:44,458 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 10372 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:51:44,464 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:51:44,465 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:51:46,005 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:51:47,861 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.745 seconds (JVM running for 4.592)
+2023-10-30 00:54:01,499 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 2252 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:54:01,503 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:54:01,503 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:54:02,915 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:54:04,968 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.805 seconds (JVM running for 4.653)
+2023-10-30 00:55:08,903 [http-nio-7001-exec-19] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32687ms.
+2023-10-30 00:55:08,904 [http-nio-7001-exec-2] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32701ms.
+2023-10-30 00:55:08,909 [http-nio-7001-exec-5] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32685ms.
+2023-10-30 00:55:08,907 [http-nio-7001-exec-6] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32687ms.
+2023-10-30 00:55:08,905 [http-nio-7001-exec-18] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32707ms.
+2023-10-30 00:55:08,905 [http-nio-7001-exec-10] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32703ms.
+2023-10-30 00:55:08,905 [http-nio-7001-exec-15] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32681ms.
+2023-10-30 00:55:08,903 [http-nio-7001-exec-12] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32693ms.
+2023-10-30 00:55:08,908 [http-nio-7001-exec-1] ERROR SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 32694ms.
+2023-10-30 00:55:11,654 [http-nio-7001-exec-8] ERROR SqlExceptionHelper - Duplicate entry '4nmc3giejtm3o07037kfoatl1s' for key 'internal_event.PRIMARY'
+2023-10-30 00:55:11,654 [http-nio-7001-exec-13] ERROR SqlExceptionHelper - Duplicate entry '4nmc3giejtm3o07037kfoatl1s' for key 'internal_event.PRIMARY'
+2023-10-30 00:55:11,654 [http-nio-7001-exec-7] ERROR SqlExceptionHelper - Duplicate entry '4nmc3giejtm3o07037kfoatl1s' for key 'internal_event.PRIMARY'
+2023-10-30 00:55:11,654 [http-nio-7001-exec-17] ERROR SqlExceptionHelper - Duplicate entry '4nmc3giejtm3o07037kfoatl1s' for key 'internal_event.PRIMARY'
+2023-10-30 00:55:11,654 [http-nio-7001-exec-14] ERROR SqlExceptionHelper - Duplicate entry '4nmc3giejtm3o07037kfoatl1s' for key 'internal_event.PRIMARY'
+2023-10-30 00:55:11,654 [http-nio-7001-exec-9] ERROR SqlExceptionHelper - Duplicate entry '4nmc3giejtm3o07037kfoatl1s' for key 'internal_event.PRIMARY'
+2023-10-30 00:55:11,654 [http-nio-7001-exec-11] ERROR SqlExceptionHelper - Duplicate entry '4nmc3giejtm3o07037kfoatl1s' for key 'internal_event.PRIMARY'
+2023-10-30 00:55:11,654 [http-nio-7001-exec-3] ERROR SqlExceptionHelper - Duplicate entry '4nmc3giejtm3o07037kfoatl1s' for key 'internal_event.PRIMARY'
+2023-10-30 00:56:11,853 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 7896 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:56:11,856 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:56:11,857 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:56:13,275 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:56:15,132 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 3.589 seconds (JVM running for 4.431)
+2023-10-30 00:56:23,980 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 7896 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:56:23,981 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:56:23,981 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:56:24,385 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:56:24,457 [restartedMain] ERROR LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalArgumentException: Unrecognized legacy `hibernate.hbm2ddl.auto` value : `updatc`
+2023-10-30 00:56:24,647 [restartedMain] ERROR SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalArgumentException: Unrecognized legacy `hibernate.hbm2ddl.auto` value : `updatc`
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.kapture.howisthemood.HowIsTheMoodApplication.main(HowIsTheMoodApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalArgumentException: Unrecognized legacy `hibernate.hbm2ddl.auto` value : `updatc`
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Unrecognized legacy `hibernate.hbm2ddl.auto` value : `updatc`
+	at org.hibernate.tool.schema.Action.interpretHbm2ddlSetting(Action.java:189)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator$ActionGrouping.determineAutoSettingImpliedAction(SchemaManagementToolCoordinator.java:596)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator$ActionGrouping.interpret(SchemaManagementToolCoordinator.java:537)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 25 common frames omitted
+2023-10-30 00:56:32,264 [restartedMain] INFO  HowIsTheMoodApplication - Starting HowIsTheMoodApplication using Java 11.0.19 on LAPTOP-M4QF480U with PID 7896 (C:\Users\Balaji R\hack\2\how-is-the-mood\build\classes\java\main started by Balaji R in C:\Users\Balaji R\hack\2\how-is-the-mood)
+2023-10-30 00:56:32,264 [restartedMain] DEBUG HowIsTheMoodApplication - Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-10-30 00:56:32,264 [restartedMain] INFO  HowIsTheMoodApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-30 00:56:32,631 [restartedMain] DEBUG AuthFilter - Filter 'authFilter' configured for use
+2023-10-30 00:56:32,935 [restartedMain] INFO  HowIsTheMoodApplication - Started HowIsTheMoodApplication in 0.706 seconds (JVM running for 22.234)
+2023-10-30 00:56:46,147 [http-nio-7001-exec-7] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:56:46,147 [http-nio-7001-exec-16] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:56:46,146 [http-nio-7001-exec-5] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:56:46,146 [http-nio-7001-exec-6] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:56:46,150 [http-nio-7001-exec-3] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:56:46,146 [http-nio-7001-exec-9] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:56:46,147 [http-nio-7001-exec-4] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:56:46,148 [http-nio-7001-exec-17] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:56:46,146 [http-nio-7001-exec-8] ERROR SqlExceptionHelper - Duplicate entry 'himanshu.garg@kapturecrm.com' for key 'internal_user.PRIMARY'
+2023-10-30 00:56:46,288 [http-nio-7001-exec-5] ERROR SqlExceptionHelper - Deadlock found when trying to get lock; try restarting transaction
+2023-10-30 00:56:46,288 [http-nio-7001-exec-7] ERROR SqlExceptionHelper - Deadlock found when trying to get lock; try restarting transaction
+2023-10-30 00:56:46,288 [http-nio-7001-exec-4] ERROR SqlExceptionHelper - Deadlock found when trying to get lock; try restarting transaction
+2023-10-30 00:56:46,289 [http-nio-7001-exec-9] ERROR SqlExceptionHelper - Deadlock found when trying to get lock; try restarting transaction
+2023-10-30 00:56:46,289 [http-nio-7001-exec-3] ERROR SqlExceptionHelper - Deadlock found when trying to get lock; try restarting transaction
+2023-10-30 00:56:46,289 [http-nio-7001-exec-8] ERROR SqlExceptionHelper - Deadlock found when trying to get lock; try restarting transaction
+2023-10-30 00:56:46,289 [http-nio-7001-exec-17] ERROR SqlExceptionHelper - Deadlock found when trying to get lock; try restarting transaction
+2023-10-30 00:56:46,289 [http-nio-7001-exec-16] ERROR SqlExceptionHelper - Deadlock found when trying to get lock; try restarting transaction
